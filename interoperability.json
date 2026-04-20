@@ -13,14 +13,14 @@
     "opensources": [
       {
         "name": "Android (Real Device)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-android",
+        "link": "interoperability-sdk-android",
         "tags": [
           "android"
         ]
       },
       {
         "name": "Android AAOS (Emulator)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-android-automotive",
+        "link": "interoperability-sdk-android-automotive",
         "tags": [
           "android",
           "automotive"
@@ -28,8 +28,10 @@
       }
     ],
     "media": [
-      "url/pic1.jpg",
-      "url/vid1.mp4"
+      "android1.png",
+      "android2.png",
+      "aaos1.png",
+      "aaos2.png"
     ]
   },
   {
@@ -60,25 +62,25 @@
     "opensources": [
       {
         "name": "Tauri (Next)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-tauri",
+        "link": "interoperability-sdk-tauri",
         "tags": [
-          "nextjs",		  	  
+          "nextjs",
           "typescript",
-		  "tauri"
+          "tauri"
         ]
       },
-	  {
+      {
         "name": "React (Next)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-react",
+        "link": "interoperability-sdk-react",
         "tags": [
-          "nextjs",		  	  
+          "nextjs",
           "typescript",
-		  "react"
+          "react"
         ]
       },
       {
         "name": "Node (CLI)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-node",
+        "link": "interoperability-sdk-node",
         "tags": [
           "nodejs",
           "typescript"
@@ -86,8 +88,13 @@
       }
     ],
     "media": [
-      "url/pic1.jpg",
-      "url/vid1.mp4"
+      "tauri1.png",
+      "tauri2.png",
+      "react1.png",
+      "react2.png",
+      "node1.png",
+      "node2.png",
+      "node3.png"
     ]
   },
   {
@@ -107,7 +114,7 @@
     "title": "JVM Ecosystem SDK",
     "crates": [
       "robusta",
-	  "uniffi"
+      "uniffi"
     ],
     "language": "jvm",
     "integration": "completed",
@@ -117,14 +124,14 @@
     "opensources": [
       {
         "name": "Scala (CLI)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-scala",
+        "link": "interoperability-sdk-scala",
         "tags": [
           "scala"
         ]
       },
       {
         "name": "Groovy (CLI)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-groovy",
+        "link": "interoperability-sdk-groovy",
         "tags": [
           "groovy",
           "java"
@@ -132,22 +139,32 @@
       },
       {
         "name": "Kotlin (CLI)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-kotlin",
+        "link": "interoperability-sdk-kotlin",
         "tags": [
           "kotlin"
         ]
       },
       {
         "name": "Java (CLI)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-java",
+        "link": "interoperability-sdk-java",
         "tags": [
           "java"
         ]
       }
     ],
     "media": [
-      "url/pic1.jpg",
-      "url/vid1.mp4"
+      "scala1.png",
+      "scala2.png",
+      "scala3.png",
+      "groovy1.png",
+      "groovy2.png",
+      "groovy3.png",
+      "kotlin1.png",
+      "kotlin2.png",
+      "kotlin3.png",
+      "java1.png",
+      "java2.png",
+      "java3.png"
     ]
   },
   {
@@ -176,15 +193,16 @@
     "opensources": [
       {
         "name": "Golang (CLI)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-golang",
+        "link": "interoperability-sdk-golang",
         "tags": [
           "golang"
         ]
       }
     ],
     "media": [
-      "url/pic1.jpg",
-      "url/vid1.mp4"
+      "golang1.png",
+      "golang2.png",
+      "golang3.png"
     ]
   },
   {
@@ -204,7 +222,7 @@
     "title": "Python SDK",
     "crates": [
       "pyo3",
-	  "uniffi"
+      "uniffi"
     ],
     "language": "python",
     "integration": "completed",
@@ -214,15 +232,16 @@
     "opensources": [
       {
         "name": "Python (CLI)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-python",
+        "link": "interoperability-sdk-python",
         "tags": [
           "python"
         ]
       }
     ],
     "media": [
-      "url/pic1.jpg",
-      "url/vid1.mp4"
+      "python1.png",
+      "python2.png",
+      "python3.png"
     ]
   },
   {
@@ -239,10 +258,10 @@
     "opensources": [
       {
         "name": "C# (CLI)",
-        "link": "https://github.com/aiamitsuri/interoperability-sdk-csharp",
+        "link": "interoperability-sdk-csharp",
         "tags": [
           "csharp",
-		  "dotnet"
+          "dotnet"
         ]
       },
       {
@@ -250,13 +269,14 @@
         "link": null,
         "tags": [
           "fsharp",
-		  "dotnet"
+          "dotnet"
         ]
       }
     ],
     "media": [
-      "url/pic1.jpg",
-      "url/vid1.mp4"
+      "dotnet1.png",
+      "dotnet2.png",
+      "dotnet3.png"
     ]
   }
 ]
